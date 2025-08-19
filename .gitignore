@@ -1,0 +1,32 @@
+# Secrets
+# Ignore the file containing passwords and secret keys
+.env
+
+# Python / Django specific
+__pycache__/
+*.pyc
+db.sqlite3
+/media/
+
+# Virtual Environment
+/backend/venv/
+
+# Machine Learning Files
+*.pkl
+
+# Datasets (Optional: uncomment if your CSV files are very large)
+# *.csv
+
+# Frontend / Node.js specific
+/frontend/node_modules/
+/frontend/build/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-error.log*
+
+# Editor and OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

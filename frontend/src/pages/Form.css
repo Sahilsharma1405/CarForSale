@@ -1,0 +1,106 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.form {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add this to the end of Form.css */
+
+.form-switch-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.form-switch-link a {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.form-switch-link a:hover {
+  text-decoration: underline;
+}
+
+.prediction-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #e0f7ff;
+  border: 1px solid #b3e5fc;
+  border-radius: 8px;
+  text-align: center;
+}
+.prediction-result h3 {
+  margin-bottom: 0.5rem;
+  color: #01579b;
+}
+.prediction-result p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #01579b;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/* This will make single items span the full width */
+.form-grid .form-group:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}

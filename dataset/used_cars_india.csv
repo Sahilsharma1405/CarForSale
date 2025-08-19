@@ -1,0 +1,777 @@
+brand,model,year,city,price,km_driven,fuel_type,transmission,owner_type,body_type
+Maruti Suzuki,Swift,2018,Mumbai,550000,45000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2020,Delhi,1200000,25000,Diesel,Automatic,First,SUV
+Honda,City,2017,Banglore,780000,60000,Petrol,Automatic,Second,Sedan
+Tata,Nexon,2021,Pune,850000,15000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2019,Ahmedabad,1400000,75000,Diesel,Manual,First,SUV
+Ford,EcoSport,2018,Chennai,720000,55000,Diesel,Manual,Second,SUV
+Toyota,Innova Crysta,2020,Hyderabad,1800000,40000,Diesel,Automatic,First,MUV
+Kia,Seltos,2021,Kolkata,1350000,20000,Petrol,Automatic,First,SUV
+Renault,Kwid,2019,Mumbai,380000,35000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2017,Delhi,600000,65000,Petrol,Manual,Second,Hatchback
+Maruti Suzuki,Baleno,2022,Banglore,750000,10000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2018,Pune,680000,50000,Petrol,Manual,First,Hatchback
+Honda,Amaze,2019,Ahmedabad,650000,48000,Diesel,Manual,Second,Sedan
+Tata,Tiago,2020,Chennai,450000,30000,Petrol,Manual,First,Hatchback
+Mahindra,Scorpio,2018,Hyderabad,1250000,85000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2021,Kolkata,700000,22000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2020,Mumbai,900000,28000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2019,Delhi,2800000,60000,Diesel,Automatic,First,SUV
+Kia,Sonet,2022,Banglore,1100000,12000,Diesel,Automatic,First,SUV
+Renault,Duster,2017,Pune,750000,70000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2018,Ahmedabad,800000,58000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2019,Chennai,950000,55000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2017,Hyderabad,500000,62000,Petrol,Manual,Second,Hatchback
+Tata,Harrier,2020,Kolkata,1600000,45000,Diesel,Manual,First,SUV
+Mahindra,Thar,2021,Mumbai,1500000,18000,Diesel,Automatic,First,SUV
+Ford,Figo,2019,Delhi,550000,40000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2018,Banglore,850000,52000,Petrol,Automatic,Second,Sedan
+Maruti Suzuki,Ciaz,2020,Pune,900000,35000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2019,Ahmedabad,420000,38000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2018,Chennai,780000,53000,Diesel,Manual,Second,SUV
+Tata,Altroz,2022,Hyderabad,800000,9000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2017,Kolkata,400000,68000,Petrol,Manual,Second,SUV
+Renault,Triber,2021,Mumbai,650000,25000,Petrol,Manual,First,MUV
+Volkswagen,Tiguan,2019,Delhi,2500000,48000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2020,Banglore,400000,28000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2021,Pune,720000,20000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2022,Ahmedabad,780000,8000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2020,Chennai,2600000,35000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2018,Hyderabad,520000,47000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2019,Kolkata,1500000,50000,Petrol,Automatic,Second,Sedan
+Ford,Endeavour,2020,Mumbai,3200000,42000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2018,Delhi,750000,90000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Banglore,1900000,28000,Diesel,Automatic,First,SUV
+Honda,Civic,2019,Pune,1600000,45000,Petrol,Automatic,Second,Sedan
+Volkswagen,Taigun,2022,Ahmedabad,1400000,10000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2019,Chennai,850000,60000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2020,Hyderabad,2200000,38000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Kolkata,1250000,30000,Diesel,Manual,First,SUV
+Renault,Kiger,2021,Mumbai,800000,18000,Petrol,Automatic,First,SUV
+Toyota,Camry,2021,Delhi,3800000,22000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2020,Banglore,1050000,32000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2020,Pune,2000000,25000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2021,Ahmedabad,1450000,15000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2019,Chennai,900000,55000,Petrol,Manual,Second,SUV
+Honda,Jazz,2018,Hyderabad,680000,48000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2019,Kolkata,580000,42000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2021,Mumbai,500000,20000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2017,Delhi,450000,65000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2022,Banglore,700000,8000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2019,Pune,1100000,60000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2020,Ahmedabad,950000,35000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2018,Chennai,300000,50000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2019,Hyderabad,1000000,45000,Diesel,Automatic,Second,Sedan
+Honda,City,2021,Kolkata,1100000,18000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2019,Mumbai,600000,40000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2022,Delhi,2200000,10000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2020,Banglore,620000,30000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2021,Pune,1350000,15000,Petrol,Automatic,First,SUV
+Honda,Amaze,2018,Ahmedabad,600000,58000,Petrol,Manual,Second,Sedan
+Tata,Nexon,2022,Chennai,950000,8000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2017,Hyderabad,1100000,90000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2019,Kolkata,800000,45000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2021,Mumbai,2000000,25000,Diesel,Automatic,First,MUV
+Kia,Seltos,2022,Delhi,1450000,12000,Petrol,Automatic,First,SUV
+Renault,Kwid,2020,Banglore,420000,28000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2019,Pune,680000,48000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2020,Ahmedabad,680000,32000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2021,Chennai,800000,22000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2019,Hyderabad,820000,47000,Petrol,Manual,Second,SUV
+Tata,Harrier,2021,Kolkata,1750000,25000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2020,Mumbai,1400000,50000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2018,Delhi,650000,55000,Petrol,Automatic,Second,Sedan
+Hyundai,Venue,2021,Banglore,980000,18000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2020,Pune,3000000,40000,Diesel,Automatic,First,SUV
+Kia,Sonet,2021,Ahmedabad,1050000,20000,Diesel,Manual,First,SUV
+Renault,Duster,2018,Chennai,800000,65000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2019,Hyderabad,880000,48000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2020,Kolkata,1000000,40000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2019,Mumbai,550000,42000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2021,Delhi,500000,20000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2022,Banglore,1600000,10000,Diesel,Automatic,First,SUV
+Ford,Figo,2018,Pune,500000,52000,Petrol,Manual,Second,Hatchback
+Toyota,Yaris,2019,Ahmedabad,900000,45000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2021,Chennai,980000,25000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2020,Hyderabad,480000,30000,Petrol,Manual,First,Hatchback
+Honda,City,2019,Kolkata,950000,40000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2021,Mumbai,750000,18000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2019,Delhi,450000,45000,Petrol,Manual,First,SUV
+Renault,Triber,2020,Banglore,600000,32000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2021,Pune,2200000,15000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2021,Ahmedabad,420000,22000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2020,Chennai,680000,28000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2021,Hyderabad,720000,15000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2021,Kolkata,2800000,20000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2020,Mumbai,580000,30000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2020,Delhi,1650000,35000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2021,Banglore,3500000,25000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2020,Pune,850000,60000,Diesel,Manual,First,SUV
+Tata,Safari,2022,Ahmedabad,2100000,12000,Diesel,Automatic,First,SUV
+Honda,Civic,2020,Chennai,1750000,30000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2021,Hyderabad,1300000,18000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2021,Kolkata,950000,28000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2021,Mumbai,2400000,22000,Diesel,Automatic,First,SUV
+Kia,Seltos,2021,Delhi,1380000,25000,Petrol,Automatic,First,SUV
+Renault,Kiger,2022,Banglore,880000,10000,Petrol,Automatic,First,SUV
+Toyota,Camry,2020,Pune,3500000,28000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2021,Ahmedabad,1100000,20000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2021,Chennai,2100000,18000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2022,Hyderabad,1550000,10000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2021,Kolkata,1000000,25000,Petrol,Manual,First,SUV
+Honda,Jazz,2020,Mumbai,750000,28000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2020,Delhi,620000,30000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2022,Banglore,550000,10000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2018,Pune,480000,55000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2021,Ahmedabad,650000,12000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2020,Chennai,1200000,45000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2021,Hyderabad,1000000,20000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2020,Kolkata,350000,30000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2021,Mumbai,1150000,22000,Diesel,Automatic,First,Sedan
+Honda,City,2020,Delhi,1050000,25000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2021,Banglore,650000,20000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2021,Pune,2000000,15000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2019,Ahmedabad,580000,40000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2019,Chennai,1100000,35000,Diesel,Manual,Second,SUV
+Honda,Amaze,2020,Hyderabad,700000,32000,Diesel,Manual,First,Sedan
+Tata,Nexon,2020,Kolkata,800000,28000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2018,Mumbai,1300000,70000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2020,Delhi,850000,38000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2019,Banglore,1700000,50000,Diesel,Automatic,First,SUV
+Kia,Seltos,2019,Pune,1150000,32000,Petrol,Manual,First,SUV
+Renault,Kwid,2021,Ahmedabad,450000,18000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2020,Chennai,720000,28000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2021,Hyderabad,780000,15000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2022,Kolkata,850000,10000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2020,Mumbai,880000,30000,Petrol,Manual,First,SUV
+Tata,Harrier,2022,Delhi,1900000,12000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2021,Banglore,1500000,35000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2020,Pune,720000,30000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2022,Ahmedabad,1050000,10000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2021,Chennai,3200000,25000,Diesel,Automatic,First,SUV
+Kia,Sonet,2020,Hyderabad,980000,28000,Diesel,Manual,Second,SUV
+Renault,Duster,2019,Kolkata,850000,55000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2020,Mumbai,950000,35000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2021,Delhi,1050000,28000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2020,Banglore,600000,25000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2022,Pune,550000,8000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2020,Ahmedabad,1400000,25000,Diesel,Manual,First,SUV
+Ford,Figo,2020,Chennai,600000,32000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2020,Hyderabad,950000,30000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2019,Kolkata,880000,42000,Petrol,Automatic,Second,Sedan
+Hyundai,Santro,2021,Mumbai,500000,20000,Petrol,Manual,First,Hatchback
+Honda,City,2018,Delhi,900000,48000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2020,Banglore,700000,25000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2020,Pune,500000,30000,Petrol,Manual,First,SUV
+Renault,Triber,2022,Ahmedabad,700000,12000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2020,Chennai,2000000,22000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2022,Hyderabad,450000,10000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2022,Kolkata,780000,15000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2020,Mumbai,680000,28000,Petrol,Automatic,Second,Hatchback
+Kia,Carnival,2022,Delhi,3000000,12000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2021,Banglore,620000,22000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2021,Pune,1800000,20000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2019,Ahmedabad,3000000,50000,Diesel,Automatic,Second,SUV
+Mahindra,Bolero,2021,Chennai,900000,40000,Diesel,Manual,First,SUV
+Tata,Safari,2020,Hyderabad,1800000,35000,Diesel,Automatic,First,SUV
+Honda,Civic,2021,Kolkata,1850000,20000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2020,Mumbai,1200000,25000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2020,Delhi,900000,40000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2022,Banglore,2600000,15000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Pune,1300000,38000,Diesel,Automatic,Second,SUV
+Renault,Kiger,2020,Ahmedabad,750000,28000,Petrol,Automatic,First,SUV
+Toyota,Camry,2022,Chennai,4000000,10000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2022,Hyderabad,1150000,15000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2022,Kolkata,2200000,12000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2020,Mumbai,1350000,25000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2020,Delhi,950000,35000,Petrol,Manual,First,SUV
+Honda,Jazz,2021,Banglore,800000,20000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2021,Pune,650000,22000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2020,Ahmedabad,480000,32000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2019,Chennai,520000,45000,Petrol,Manual,First,Hatchback
+Tata,PUNCH,2020,Hyderabad,600000,18000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2021,Kolkata,1250000,30000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2022,Mumbai,1050000,15000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2021,Delhi,380000,22000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2020,Banglore,1100000,28000,Diesel,Automatic,First,Sedan
+Honda,City,2022,Pune,1200000,12000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2020,Ahmedabad,620000,35000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2020,Chennai,1800000,20000,Diesel,Manual,First,SUV
+Maruti Suzuki,Swift,2022,Hyderabad,680000,10000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2022,Kolkata,1500000,10000,Petrol,Automatic,First,SUV
+Honda,Amaze,2021,Mumbai,750000,20000,Diesel,Manual,First,Sedan
+Tata,Nexon,2019,Delhi,750000,42000,Petrol,Manual,Second,SUV
+Mahindra,XUV500,2020,Banglore,1500000,40000,Diesel,Manual,First,SUV
+Ford,EcoSport,2021,Pune,900000,25000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2022,Ahmedabad,2200000,15000,Diesel,Automatic,First,MUV
+Kia,Seltos,2021,Chennai,1400000,20000,Diesel,Automatic,First,SUV
+Renault,Kwid,2022,Hyderabad,480000,8000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2021,Kolkata,780000,18000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2019,Mumbai,650000,38000,Petrol,Automatic,Second,Hatchback
+Hyundai,i20,2020,Delhi,750000,25000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2021,Banglore,920000,22000,Petrol,Manual,First,SUV
+Tata,Harrier,2020,Pune,1700000,30000,Diesel,Manual,First,SUV
+Mahindra,Scorpio,2022,Ahmedabad,1600000,15000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2022,Chennai,780000,12000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2020,Hyderabad,950000,32000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2022,Kolkata,3500000,10000,Diesel,Automatic,First,SUV
+Kia,Sonet,2022,Mumbai,1150000,12000,Diesel,Automatic,First,SUV
+Renault,Duster,2020,Delhi,900000,45000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2021,Banglore,1000000,25000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2022,Pune,1100000,15000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2021,Ahmedabad,620000,20000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2020,Chennai,520000,28000,Petrol,Manual,Second,Hatchback
+Mahindra,Thar,2021,Hyderabad,1550000,18000,Diesel,Manual,First,SUV
+Ford,Figo,2021,Kolkata,620000,25000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2021,Mumbai,1000000,20000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2022,Delhi,1050000,15000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2022,Banglore,520000,12000,Petrol,Manual,First,Hatchback
+Honda,City,2021,Pune,1150000,18000,Petrol,Automatic,First,Sedan
+Tata,Altroz,2022,Ahmedabad,820000,10000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2021,Chennai,550000,25000,Petrol,Manual,First,SUV
+Renault,Triber,2021,Hyderabad,680000,22000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2022,Kolkata,2300000,10000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2020,Mumbai,410000,26000,Petrol,Manual,Second,Hatchback
+Hyundai,Aura,2020,Delhi,670000,30000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2022,Banglore,800000,9000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2020,Pune,2500000,38000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Ignis,2022,Ahmedabad,650000,12000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2022,Chennai,1900000,15000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2022,Hyderabad,3800000,10000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2022,Kolkata,950000,20000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Mumbai,2000000,22000,Diesel,Automatic,First,SUV
+Honda,Civic,2019,Delhi,1550000,50000,Petrol,Automatic,Second,Sedan
+Volkswagen,Taigun,2022,Banglore,1500000,8000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2022,Pune,1000000,15000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2020,Ahmedabad,2100000,40000,Diesel,Automatic,First,SUV
+Kia,Seltos,2022,Chennai,1550000,9000,Diesel,Automatic,First,SUV
+Renault,Kiger,2021,Hyderabad,850000,20000,Petrol,Automatic,First,SUV
+Toyota,Camry,2021,Kolkata,3900000,18000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2020,Mumbai,1080000,35000,Petrol,Automatic,Second,MUV
+Hyundai,Kona Electric,2020,Delhi,1950000,28000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2021,Banglore,1500000,18000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2022,Pune,1050000,15000,Petrol,Manual,First,SUV
+Honda,Jazz,2019,Ahmedabad,700000,40000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2019,Chennai,600000,38000,Petrol,Manual,Second,Hatchback
+Maruti Suzuki,Wagon R,2021,Hyderabad,520000,25000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2020,Kolkata,550000,30000,Petrol,Manual,First,Hatchback
+Tata,PUNCH,2022,Mumbai,720000,9000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2019,Delhi,1150000,55000,Diesel,Manual,Second,MUV
+Volkswagen,Polo GT,2020,Banglore,980000,30000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2022,Pune,400000,12000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2022,Ahmedabad,1200000,15000,Diesel,Automatic,First,Sedan
+Honda,City,2019,Chennai,980000,38000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2022,Hyderabad,700000,10000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2022,Kolkata,2300000,8000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2021,Mumbai,650000,22000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2020,Delhi,1250000,30000,Diesel,Automatic,First,SUV
+Honda,Amaze,2022,Banglore,800000,10000,Diesel,Manual,First,Sedan
+Tata,Nexon,2021,Pune,900000,20000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2019,Ahmedabad,1450000,65000,Diesel,Manual,First,SUV
+Ford,EcoSport,2018,Chennai,750000,58000,Diesel,Manual,Second,SUV
+Toyota,Innova Crysta,2020,Hyderabad,1850000,42000,Diesel,Automatic,First,SUV
+Kia,Seltos,2021,Kolkata,1420000,22000,Petrol,Automatic,First,SUV
+Renault,Kwid,2019,Mumbai,390000,36000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2018,Delhi,620000,60000,Petrol,Manual,Second,Hatchback
+Maruti Suzuki,Baleno,2022,Banglore,760000,11000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2019,Pune,700000,48000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2018,Ahmedabad,800000,55000,Diesel,Manual,Second,SUV
+Tata,Harrier,2021,Chennai,1800000,28000,Diesel,Manual,First,SUV
+Mahindra,Scorpio,2019,Hyderabad,1300000,75000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2021,Kolkata,750000,25000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2021,Mumbai,1000000,20000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2019,Delhi,2900000,58000,Diesel,Automatic,First,SUV
+Kia,Sonet,2021,Banglore,1100000,18000,Diesel,Automatic,First,SUV
+Renault,Duster,2017,Pune,780000,72000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2018,Ahmedabad,820000,60000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2019,Chennai,980000,58000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2018,Hyderabad,520000,60000,Petrol,Manual,Second,Hatchback
+Tata,Tiago,2021,Kolkata,520000,22000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2021,Mumbai,1520000,19000,Diesel,Automatic,First,SUV
+Ford,Figo,2019,Delhi,560000,42000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2018,Banglore,870000,50000,Petrol,Automatic,Second,Sedan
+Maruti Suzuki,Ciaz,2020,Pune,920000,38000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2019,Ahmedabad,430000,40000,Petrol,Manual,First,Hatchback
+Honda,City,2020,Chennai,1080000,28000,Petrol,Automatic,First,Sedan
+Tata,Altroz,2021,Hyderabad,780000,20000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2018,Kolkata,420000,50000,Petrol,Manual,Second,SUV
+Renault,Triber,2021,Mumbai,670000,26000,Petrol,Manual,First,MUV
+Volkswagen,Tiguan,2020,Delhi,2600000,40000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2021,Banglore,430000,25000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2021,Pune,740000,22000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2021,Ahmedabad,750000,16000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2021,Chennai,2700000,25000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2019,Hyderabad,540000,45000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2019,Kolkata,1550000,48000,Petrol,Automatic,Second,Sedan
+Ford,Endeavour,2020,Mumbai,3300000,40000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2019,Delhi,800000,80000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Banglore,1950000,26000,Diesel,Automatic,First,SUV
+Honda,Civic,2020,Pune,1700000,32000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2021,Ahmedabad,1350000,16000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2019,Chennai,870000,62000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2021,Hyderabad,2300000,25000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Kolkata,1280000,32000,Diesel,Manual,First,SUV
+Renault,Kiger,2021,Mumbai,820000,20000,Petrol,Automatic,First,SUV
+Toyota,Camry,2020,Delhi,3600000,26000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2021,Banglore,1120000,22000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2021,Pune,2050000,20000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2022,Ahmedabad,1600000,12000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2019,Chennai,920000,58000,Petrol,Manual,Second,SUV
+Honda,Jazz,2018,Hyderabad,700000,50000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2020,Kolkata,640000,32000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2022,Mumbai,560000,11000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2017,Delhi,460000,68000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2021,Banglore,680000,14000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2020,Pune,1220000,48000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2021,Ahmedabad,1020000,22000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2020,Chennai,360000,32000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2021,Hyderabad,1180000,25000,Diesel,Automatic,First,Sedan
+Honda,City,2021,Kolkata,1120000,20000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2021,Mumbai,670000,22000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2021,Delhi,2100000,18000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2020,Banglore,630000,32000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2021,Pune,1380000,18000,Petrol,Automatic,First,SUV
+Honda,Amaze,2019,Ahmedabad,620000,50000,Petrol,Manual,Second,Sedan
+Tata,Nexon,2022,Chennai,980000,9000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2017,Hyderabad,1150000,88000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2019,Kolkata,820000,48000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2021,Mumbai,2050000,28000,Diesel,Automatic,First,MUV
+Kia,Seltos,2022,Delhi,1480000,14000,Petrol,Automatic,First,SUV
+Renault,Kwid,2020,Banglore,430000,30000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2019,Pune,700000,50000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2020,Ahmedabad,700000,35000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2021,Chennai,820000,25000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2019,Hyderabad,840000,49000,Petrol,Manual,Second,SUV
+Tata,Harrier,2021,Kolkata,1780000,26000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2020,Mumbai,1420000,52000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2019,Delhi,680000,50000,Petrol,Automatic,Second,Sedan
+Hyundai,Venue,2021,Banglore,1020000,20000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2020,Pune,3050000,42000,Diesel,Automatic,First,SUV
+Kia,Sonet,2021,Ahmedabad,1080000,22000,Diesel,Manual,First,SUV
+Renault,Duster,2018,Chennai,820000,68000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2019,Hyderabad,900000,50000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2020,Kolkata,1020000,42000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2019,Mumbai,570000,45000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2021,Delhi,530000,22000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2022,Banglore,1650000,12000,Diesel,Automatic,First,SUV
+Ford,Figo,2018,Pune,520000,55000,Petrol,Manual,Second,Hatchback
+Toyota,Yaris,2019,Ahmedabad,920000,48000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2021,Chennai,1000000,28000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2020,Hyderabad,490000,32000,Petrol,Manual,First,Hatchback
+Honda,City,2019,Kolkata,970000,42000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2021,Mumbai,770000,20000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2019,Delhi,470000,48000,Petrol,Manual,First,SUV
+Renault,Triber,2020,Banglore,620000,35000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2021,Pune,2250000,18000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2021,Ahmedabad,440000,24000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2020,Chennai,700000,30000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2021,Hyderabad,740000,18000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2021,Kolkata,2850000,22000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2020,Mumbai,600000,32000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2020,Delhi,1700000,38000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2021,Banglore,3600000,28000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2020,Pune,870000,62000,Diesel,Manual,First,SUV
+Tata,Safari,2022,Ahmedabad,2150000,14000,Diesel,Automatic,First,SUV
+Honda,Civic,2020,Chennai,1780000,32000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2021,Hyderabad,1320000,20000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2021,Kolkata,970000,30000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2021,Mumbai,2450000,25000,Diesel,Automatic,First,SUV
+Kia,Seltos,2021,Delhi,1400000,28000,Petrol,Automatic,First,SUV
+Renault,Kiger,2022,Banglore,900000,12000,Petrol,Automatic,First,SUV
+Toyota,Camry,2020,Pune,3550000,30000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2021,Ahmedabad,1130000,22000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2021,Chennai,2150000,20000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2022,Hyderabad,1580000,11000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2021,Kolkata,1020000,28000,Petrol,Manual,First,SUV
+Honda,Jazz,2020,Mumbai,770000,30000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2020,Delhi,630000,32000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2022,Banglore,570000,12000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2018,Pune,500000,58000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2021,Ahmedabad,670000,15000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2020,Chennai,1230000,49000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2021,Hyderabad,1030000,22000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2020,Kolkata,370000,33000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2021,Mumbai,1170000,24000,Diesel,Automatic,First,Sedan
+Honda,City,2020,Delhi,1070000,27000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2021,Banglore,660000,23000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2021,Pune,2050000,17000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2019,Ahmedabad,600000,42000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2019,Chennai,1120000,37000,Diesel,Manual,Second,SUV
+Honda,Amaze,2020,Hyderabad,720000,34000,Diesel,Manual,First,Sedan
+Tata,Nexon,2020,Kolkata,820000,30000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2018,Mumbai,1320000,72000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2020,Delhi,870000,40000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2019,Banglore,1720000,52000,Diesel,Automatic,First,SUV
+Kia,Seltos,2019,Pune,1170000,34000,Petrol,Manual,First,SUV
+Renault,Kwid,2021,Ahmedabad,460000,20000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2020,Chennai,730000,30000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2021,Hyderabad,790000,17000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2022,Kolkata,870000,12000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2020,Mumbai,900000,32000,Petrol,Manual,First,SUV
+Tata,Harrier,2022,Delhi,1920000,14000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2021,Banglore,1520000,37000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2020,Pune,740000,32000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2022,Ahmedabad,1070000,12000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2021,Chennai,3300000,27000,Diesel,Automatic,First,SUV
+Kia,Sonet,2020,Hyderabad,1000000,30000,Diesel,Manual,Second,SUV
+Renault,Duster,2019,Kolkata,870000,57000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2020,Mumbai,970000,37000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2021,Delhi,1070000,30000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2020,Banglore,610000,27000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2022,Pune,570000,9000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2020,Ahmedabad,1420000,27000,Diesel,Manual,First,SUV
+Ford,Figo,2020,Chennai,610000,34000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2020,Hyderabad,970000,32000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2019,Kolkata,900000,44000,Petrol,Automatic,Second,Sedan
+Hyundai,Santro,2021,Mumbai,510000,22000,Petrol,Manual,First,Hatchback
+Honda,City,2018,Delhi,920000,50000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2020,Banglore,720000,27000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2020,Pune,520000,32000,Petrol,Manual,First,SUV
+Renault,Triber,2022,Ahmedabad,720000,14000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2020,Chennai,2050000,24000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2022,Hyderabad,460000,12000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2022,Kolkata,800000,17000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2020,Mumbai,700000,30000,Petrol,Automatic,Second,Hatchback
+Kia,Carnival,2022,Delhi,3050000,14000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2021,Banglore,630000,24000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2021,Pune,1820000,22000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2019,Ahmedabad,3050000,52000,Diesel,Automatic,Second,SUV
+Mahindra,Bolero,2021,Chennai,920000,42000,Diesel,Manual,First,SUV
+Tata,Safari,2020,Hyderabad,1820000,37000,Diesel,Automatic,First,SUV
+Honda,Civic,2021,Kolkata,1870000,22000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2020,Mumbai,1220000,27000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2020,Delhi,920000,42000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2022,Banglore,2650000,17000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Pune,1320000,40000,Diesel,Automatic,Second,SUV
+Renault,Kiger,2020,Ahmedabad,770000,30000,Petrol,Automatic,First,SUV
+Toyota,Camry,2022,Chennai,4050000,12000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2022,Hyderabad,1170000,17000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2022,Kolkata,2250000,14000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2020,Mumbai,1370000,27000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2020,Delhi,970000,37000,Petrol,Manual,First,SUV
+Honda,Jazz,2021,Banglore,820000,22000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2021,Pune,670000,24000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2020,Ahmedabad,500000,34000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2019,Chennai,530000,47000,Petrol,Manual,First,Hatchback
+Tata,PUNCH,2020,Hyderabad,620000,20000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2021,Kolkata,1270000,32000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2022,Mumbai,1070000,17000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2021,Delhi,390000,24000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2020,Banglore,1120000,30000,Diesel,Automatic,First,Sedan
+Honda,City,2022,Pune,1220000,14000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2020,Ahmedabad,630000,37000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2020,Chennai,1850000,22000,Diesel,Manual,First,SUV
+Maruti Suzuki,Swift,2022,Hyderabad,700000,12000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2022,Kolkata,1520000,12000,Petrol,Automatic,First,SUV
+Honda,Amaze,2021,Mumbai,770000,22000,Diesel,Manual,First,Sedan
+Tata,Nexon,2019,Delhi,770000,44000,Petrol,Manual,Second,SUV
+Mahindra,XUV500,2020,Banglore,1520000,42000,Diesel,Manual,First,SUV
+Ford,EcoSport,2021,Pune,920000,27000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2022,Ahmedabad,2250000,17000,Diesel,Automatic,First,MUV
+Kia,Seltos,2021,Chennai,1420000,22000,Diesel,Automatic,First,SUV
+Renault,Kwid,2022,Hyderabad,500000,10000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2021,Kolkata,800000,20000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2019,Mumbai,670000,40000,Petrol,Automatic,Second,Hatchback
+Hyundai,i20,2020,Delhi,770000,27000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2021,Banglore,940000,24000,Petrol,Manual,First,SUV
+Tata,Harrier,2020,Pune,1720000,32000,Diesel,Manual,First,SUV
+Mahindra,Scorpio,2022,Ahmedabad,1620000,17000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2022,Chennai,800000,14000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2020,Hyderabad,970000,34000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2022,Kolkata,3550000,12000,Diesel,Automatic,First,SUV
+Kia,Sonet,2022,Mumbai,1170000,14000,Diesel,Automatic,First,SUV
+Renault,Duster,2020,Delhi,920000,47000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2021,Banglore,1020000,27000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2022,Pune,1120000,17000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2021,Ahmedabad,630000,22000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2020,Chennai,530000,30000,Petrol,Manual,Second,Hatchback
+Mahindra,Thar,2021,Hyderabad,1570000,20000,Diesel,Manual,First,SUV
+Ford,Figo,2021,Kolkata,630000,27000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2021,Mumbai,1020000,22000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2022,Delhi,1070000,17000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2022,Banglore,530000,14000,Petrol,Manual,First,Hatchback
+Honda,City,2021,Pune,1170000,20000,Petrol,Automatic,First,Sedan
+Tata,Altroz,2022,Ahmedabad,830000,12000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2021,Chennai,570000,27000,Petrol,Manual,First,SUV
+Renault,Triber,2021,Hyderabad,700000,24000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2022,Kolkata,2350000,12000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2020,Mumbai,420000,28000,Petrol,Manual,Second,Hatchback
+Hyundai,Aura,2020,Delhi,680000,32000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2022,Banglore,810000,11000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2020,Pune,2550000,40000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Ignis,2022,Ahmedabad,670000,14000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2022,Chennai,1920000,17000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2022,Hyderabad,3850000,12000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2022,Kolkata,970000,22000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Mumbai,2020000,24000,Diesel,Automatic,First,SUV
+Honda,Civic,2019,Delhi,1570000,52000,Petrol,Automatic,Second,Sedan
+Volkswagen,Taigun,2022,Banglore,1520000,10000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2022,Pune,1020000,17000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2020,Ahmedabad,2120000,42000,Diesel,Automatic,First,SUV
+Kia,Seltos,2022,Chennai,1570000,11000,Diesel,Automatic,First,SUV
+Renault,Kiger,2021,Hyderabad,870000,22000,Petrol,Automatic,First,SUV
+Toyota,Camry,2021,Kolkata,3950000,20000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2020,Mumbai,1100000,37000,Petrol,Automatic,Second,MUV
+Hyundai,Kona Electric,2020,Delhi,1970000,30000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2021,Banglore,1520000,20000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2022,Pune,1070000,17000,Petrol,Manual,First,SUV
+Honda,Jazz,2019,Ahmedabad,720000,42000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2019,Chennai,620000,40000,Petrol,Manual,Second,Hatchback
+Maruti Suzuki,Wagon R,2021,Hyderabad,530000,27000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2020,Kolkata,570000,32000,Petrol,Manual,First,Hatchback
+Tata,PUNCH,2022,Mumbai,730000,11000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2019,Delhi,1170000,57000,Diesel,Manual,Second,MUV
+Volkswagen,Polo GT,2020,Banglore,1000000,32000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2022,Pune,410000,14000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2022,Ahmedabad,1220000,17000,Diesel,Automatic,First,Sedan
+Honda,City,2019,Chennai,1000000,40000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2022,Hyderabad,710000,12000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2022,Kolkata,2350000,10000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2021,Mumbai,670000,24000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2020,Delhi,1270000,32000,Diesel,Automatic,First,SUV
+Honda,Amaze,2022,Banglore,820000,12000,Diesel,Manual,First,Sedan
+Tata,Nexon,2021,Pune,920000,22000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2019,Ahmedabad,1470000,67000,Diesel,Manual,First,SUV
+Ford,EcoSport,2018,Chennai,770000,60000,Diesel,Manual,Second,SUV
+Toyota,Innova Crysta,2020,Hyderabad,1870000,44000,Diesel,Automatic,First,SUV
+Kia,Seltos,2021,Kolkata,1440000,24000,Petrol,Automatic,First,SUV
+Renault,Kwid,2019,Mumbai,400000,38000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2018,Delhi,630000,62000,Petrol,Manual,Second,Hatchback
+Maruti Suzuki,Baleno,2022,Banglore,770000,13000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2019,Pune,710000,50000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2018,Ahmedabad,810000,57000,Diesel,Manual,Second,SUV
+Tata,Harrier,2021,Chennai,1820000,30000,Diesel,Manual,First,SUV
+Mahindra,Scorpio,2019,Hyderabad,1320000,77000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2021,Kolkata,770000,27000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2021,Mumbai,1010000,22000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2019,Delhi,2950000,60000,Diesel,Automatic,First,SUV
+Kia,Sonet,2021,Banglore,1120000,20000,Diesel,Automatic,First,SUV
+Renault,Duster,2017,Pune,800000,74000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2018,Ahmedabad,830000,62000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2019,Chennai,1000000,60000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2018,Hyderabad,530000,62000,Petrol,Manual,Second,Hatchback
+Tata,Tiago,2021,Kolkata,540000,24000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2021,Mumbai,1540000,21000,Diesel,Automatic,First,SUV
+Ford,Figo,2019,Delhi,570000,44000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2018,Banglore,880000,52000,Petrol,Automatic,Second,Sedan
+Maruti Suzuki,Ciaz,2020,Pune,930000,40000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2019,Ahmedabad,440000,42000,Petrol,Manual,First,Hatchback
+Honda,City,2020,Chennai,1100000,30000,Petrol,Automatic,First,Sedan
+Tata,Altroz,2021,Hyderabad,790000,22000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2018,Kolkata,430000,52000,Petrol,Manual,Second,SUV
+Renault,Triber,2021,Mumbai,680000,28000,Petrol,Manual,First,MUV
+Volkswagen,Tiguan,2020,Delhi,2650000,42000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2021,Banglore,440000,27000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2021,Pune,750000,24000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2021,Ahmedabad,760000,18000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2021,Chennai,2750000,27000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2019,Hyderabad,550000,47000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2019,Kolkata,1570000,50000,Petrol,Automatic,Second,Sedan
+Ford,Endeavour,2020,Mumbai,3350000,42000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2019,Delhi,810000,82000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Banglore,1970000,28000,Diesel,Automatic,First,SUV
+Honda,Civic,2020,Pune,1720000,34000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2021,Ahmedabad,1370000,18000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2019,Chennai,880000,64000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2021,Hyderabad,2350000,27000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Kolkata,1300000,34000,Diesel,Manual,First,SUV
+Renault,Kiger,2021,Mumbai,830000,22000,Petrol,Automatic,First,SUV
+Toyota,Camry,2020,Delhi,3650000,28000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2021,Banglore,1140000,24000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2021,Pune,2070000,22000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2022,Ahmedabad,1620000,14000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2019,Chennai,930000,60000,Petrol,Manual,Second,SUV
+Honda,Jazz,2018,Hyderabad,710000,52000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2020,Kolkata,650000,34000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2022,Mumbai,580000,13000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2017,Delhi,470000,70000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2021,Banglore,690000,16000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2020,Pune,1240000,50000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2021,Ahmedabad,1040000,24000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2020,Chennai,370000,34000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2021,Hyderabad,1200000,27000,Diesel,Automatic,First,Sedan
+Honda,City,2021,Kolkata,1130000,22000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2021,Mumbai,680000,24000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2021,Delhi,2150000,20000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2020,Banglore,640000,34000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2021,Pune,1400000,20000,Petrol,Automatic,First,SUV
+Honda,Amaze,2019,Ahmedabad,630000,52000,Petrol,Manual,Second,Sedan
+Tata,Nexon,2022,Chennai,1000000,11000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2017,Hyderabad,1170000,90000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2019,Kolkata,830000,50000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2021,Mumbai,2070000,30000,Diesel,Automatic,First,MUV
+Kia,Seltos,2022,Delhi,1500000,16000,Petrol,Automatic,First,SUV
+Renault,Kwid,2020,Banglore,440000,32000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2019,Pune,710000,52000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2020,Ahmedabad,710000,37000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2021,Chennai,830000,27000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2019,Hyderabad,850000,51000,Petrol,Manual,Second,SUV
+Tata,Harrier,2021,Kolkata,1800000,28000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2020,Mumbai,1430000,54000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2019,Delhi,690000,52000,Petrol,Automatic,Second,Sedan
+Hyundai,Venue,2021,Banglore,1030000,22000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2020,Pune,3100000,44000,Diesel,Automatic,First,SUV
+Kia,Sonet,2021,Ahmedabad,1090000,24000,Diesel,Manual,First,SUV
+Renault,Duster,2018,Chennai,830000,70000,Diesel,Manual,Second,SUV
+Volkswagen,Vento,2019,Hyderabad,910000,52000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2020,Kolkata,1030000,44000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2019,Mumbai,580000,47000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2021,Delhi,540000,24000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2022,Banglore,1670000,14000,Diesel,Automatic,First,SUV
+Ford,Figo,2018,Pune,530000,57000,Petrol,Manual,Second,Hatchback
+Toyota,Yaris,2019,Ahmedabad,930000,50000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2021,Chennai,1010000,30000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2020,Hyderabad,500000,34000,Petrol,Manual,First,Hatchback
+Honda,City,2019,Kolkata,980000,44000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2021,Mumbai,780000,22000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2019,Delhi,480000,50000,Petrol,Manual,First,SUV
+Renault,Triber,2020,Banglore,630000,37000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2021,Pune,2270000,20000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2021,Ahmedabad,450000,26000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2020,Chennai,710000,32000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2021,Hyderabad,750000,20000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2021,Kolkata,2870000,24000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2020,Mumbai,610000,34000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2020,Delhi,1720000,40000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2021,Banglore,3650000,30000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2020,Pune,880000,64000,Diesel,Manual,First,SUV
+Tata,Safari,2022,Ahmedabad,2170000,16000,Diesel,Automatic,First,SUV
+Honda,Civic,2020,Chennai,1800000,34000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2021,Hyderabad,1330000,22000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2021,Kolkata,980000,32000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2021,Mumbai,2470000,27000,Diesel,Automatic,First,SUV
+Kia,Seltos,2021,Delhi,1410000,30000,Petrol,Automatic,First,SUV
+Renault,Kiger,2022,Banglore,910000,14000,Petrol,Automatic,First,SUV
+Toyota,Camry,2020,Pune,3570000,32000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2021,Ahmedabad,1140000,24000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2021,Chennai,2170000,22000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2022,Hyderabad,1590000,13000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2021,Kolkata,1030000,30000,Petrol,Manual,First,SUV
+Honda,Jazz,2020,Mumbai,780000,32000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2020,Delhi,640000,34000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2022,Banglore,580000,14000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2018,Pune,510000,60000,Petrol,Manual,Second,Hatchback
+Tata,PUNCH,2021,Ahmedabad,680000,17000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2020,Chennai,1250000,51000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2021,Hyderabad,1050000,24000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2020,Kolkata,380000,35000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2021,Mumbai,1190000,26000,Diesel,Automatic,First,Sedan
+Honda,City,2020,Delhi,1090000,29000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2021,Banglore,670000,25000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2021,Pune,2070000,19000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Swift,2019,Ahmedabad,610000,44000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2019,Chennai,1130000,39000,Diesel,Manual,Second,SUV
+Honda,Amaze,2020,Hyderabad,730000,36000,Diesel,Manual,First,Sedan
+Tata,Nexon,2020,Kolkata,830000,32000,Petrol,Manual,First,SUV
+Mahindra,XUV500,2018,Mumbai,1330000,74000,Diesel,Manual,Second,SUV
+Ford,EcoSport,2020,Delhi,880000,42000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2019,Banglore,1730000,54000,Diesel,Automatic,First,SUV
+Kia,Seltos,2019,Pune,1180000,36000,Petrol,Manual,First,SUV
+Renault,Kwid,2021,Ahmedabad,470000,22000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2020,Chennai,740000,32000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2021,Hyderabad,800000,19000,Petrol,Automatic,First,Hatchback
+Hyundai,i20,2022,Kolkata,880000,14000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2020,Mumbai,910000,34000,Petrol,Manual,First,SUV
+Tata,Harrier,2022,Delhi,1930000,16000,Diesel,Automatic,First,SUV
+Mahindra,Scorpio,2021,Banglore,1530000,39000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2020,Pune,750000,34000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2022,Ahmedabad,1080000,14000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2021,Chennai,3350000,29000,Diesel,Automatic,First,SUV
+Kia,Sonet,2020,Hyderabad,1010000,32000,Diesel,Manual,Second,SUV
+Renault,Duster,2019,Kolkata,880000,59000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2020,Mumbai,980000,39000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2021,Delhi,1080000,32000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2020,Banglore,620000,29000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2022,Pune,580000,11000,Petrol,Manual,First,Hatchback
+Mahindra,Thar,2020,Ahmedabad,1430000,29000,Diesel,Manual,First,SUV
+Ford,Figo,2020,Chennai,620000,36000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2020,Hyderabad,980000,34000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2019,Kolkata,910000,46000,Petrol,Automatic,Second,Sedan
+Hyundai,Santro,2021,Mumbai,520000,24000,Petrol,Manual,First,Hatchback
+Honda,City,2018,Delhi,930000,52000,Petrol,Automatic,Second,Sedan
+Tata,Altroz,2020,Banglore,730000,29000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2020,Pune,530000,34000,Petrol,Manual,First,SUV
+Renault,Triber,2022,Ahmedabad,730000,16000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2020,Chennai,2070000,26000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2022,Hyderabad,470000,14000,Petrol,Manual,First,Hatchback
+Hyundai,Aura,2022,Kolkata,810000,19000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2020,Mumbai,710000,32000,Petrol,Automatic,Second,Hatchback
+Kia,Carnival,2022,Delhi,3100000,16000,Diesel,Automatic,First,MUV
+Maruti Suzuki,Ignis,2021,Banglore,640000,26000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2021,Pune,1830000,24000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2019,Ahmedabad,3070000,54000,Diesel,Automatic,Second,SUV
+Mahindra,Bolero,2021,Chennai,930000,44000,Diesel,Manual,First,SUV
+Tata,Safari,2020,Hyderabad,1830000,39000,Diesel,Automatic,First,SUV
+Honda,Civic,2021,Kolkata,1880000,24000,Petrol,Automatic,First,Sedan
+Volkswagen,Taigun,2020,Mumbai,1230000,29000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2020,Delhi,930000,44000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2022,Banglore,2670000,19000,Diesel,Automatic,First,SUV
+Kia,Seltos,2020,Pune,1330000,42000,Diesel,Automatic,Second,SUV
+Renault,Kiger,2020,Ahmedabad,780000,32000,Petrol,Automatic,First,SUV
+Toyota,Camry,2022,Chennai,4100000,14000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,XL6,2022,Hyderabad,1180000,19000,Petrol,Automatic,First,MUV
+Hyundai,Kona Electric,2022,Kolkata,2270000,16000,Electric,Automatic,First,SUV
+Tata,Nexon EV,2020,Mumbai,1380000,29000,Electric,Automatic,First,SUV
+Mahindra,XUV300,2020,Delhi,980000,39000,Petrol,Manual,First,SUV
+Honda,Jazz,2021,Banglore,830000,24000,Petrol,Manual,First,Hatchback
+Ford,Freestyle,2021,Pune,680000,26000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Wagon R,2020,Ahmedabad,510000,36000,Petrol,Manual,First,Hatchback
+Hyundai,i10,2019,Chennai,540000,49000,Petrol,Manual,First,Hatchback
+Tata,PUNCH,2020,Hyderabad,630000,22000,Petrol,Manual,First,SUV
+Mahindra,Marazzo,2021,Kolkata,1280000,34000,Diesel,Manual,First,MUV
+Volkswagen,Polo GT,2022,Mumbai,1080000,19000,Petrol,Automatic,First,Hatchback
+Maruti Suzuki,Alto 800,2021,Delhi,400000,26000,Petrol,Manual,First,Hatchback
+Hyundai,Verna,2020,Banglore,1130000,32000,Diesel,Automatic,First,Sedan
+Honda,City,2022,Pune,1230000,16000,Petrol,Automatic,First,Sedan
+Tata,Tigor,2020,Ahmedabad,640000,39000,Petrol,Manual,First,Sedan
+Mahindra,XUV700,2020,Chennai,1870000,24000,Diesel,Manual,First,SUV
+Maruti Suzuki,Swift,2022,Hyderabad,710000,14000,Petrol,Manual,First,Hatchback
+Hyundai,Creta,2022,Kolkata,1530000,14000,Petrol,Automatic,First,SUV
+Honda,Amaze,2021,Mumbai,780000,24000,Diesel,Manual,First,Sedan
+Tata,Nexon,2019,Delhi,780000,46000,Petrol,Manual,Second,SUV
+Mahindra,XUV500,2020,Banglore,1530000,44000,Diesel,Manual,First,SUV
+Ford,EcoSport,2021,Pune,930000,29000,Diesel,Manual,First,SUV
+Toyota,Innova Crysta,2022,Ahmedabad,2270000,19000,Diesel,Automatic,First,MUV
+Kia,Seltos,2021,Chennai,1430000,24000,Diesel,Automatic,First,SUV
+Renault,Kwid,2022,Hyderabad,510000,12000,Petrol,Manual,First,Hatchback
+Volkswagen,Polo,2021,Kolkata,810000,22000,Petrol,Manual,First,Hatchback
+Maruti Suzuki,Baleno,2019,Mumbai,680000,42000,Petrol,Automatic,Second,Hatchback
+Hyundai,i20,2020,Delhi,780000,29000,Petrol,Manual,First,Hatchback
+Honda,WR-V,2021,Banglore,950000,26000,Petrol,Manual,First,SUV
+Tata,Harrier,2020,Pune,1730000,34000,Diesel,Manual,First,SUV
+Mahindra,Scorpio,2022,Ahmedabad,1630000,19000,Diesel,Manual,First,SUV
+Maruti Suzuki,Dzire,2022,Chennai,810000,16000,Petrol,Automatic,First,Sedan
+Hyundai,Venue,2020,Hyderabad,980000,36000,Petrol,Manual,First,SUV
+Toyota,Fortuner,2022,Kolkata,3600000,14000,Diesel,Automatic,First,SUV
+Kia,Sonet,2022,Mumbai,1180000,16000,Diesel,Automatic,First,SUV
+Renault,Duster,2020,Delhi,930000,49000,Diesel,Manual,First,SUV
+Volkswagen,Vento,2021,Banglore,1030000,29000,Diesel,Automatic,First,Sedan
+Maruti Suzuki,Ertiga,2022,Pune,1130000,19000,Petrol,Manual,First,MUV
+Hyundai,Grand i10,2021,Ahmedabad,640000,24000,Petrol,Manual,First,Hatchback
+Tata,Tiago,2020,Chennai,540000,32000,Petrol,Manual,Second,Hatchback
+Mahindra,Thar,2021,Hyderabad,1580000,22000,Diesel,Manual,First,SUV
+Ford,Figo,2021,Kolkata,640000,29000,Petrol,Manual,First,Hatchback
+Toyota,Yaris,2021,Mumbai,1030000,24000,Petrol,Automatic,First,Sedan
+Maruti Suzuki,Ciaz,2022,Delhi,1080000,19000,Petrol,Automatic,First,Sedan
+Hyundai,Santro,2022,Banglore,540000,16000,Petrol,Manual,First,Hatchback
+Honda,City,2021,Pune,1180000,22000,Petrol,Automatic,First,Sedan
+Tata,Altroz,2022,Ahmedabad,840000,14000,Petrol,Manual,First,Hatchback
+Mahindra,KUV100,2021,Chennai,580000,29000,Petrol,Manual,First,SUV
+Renault,Triber,2021,Hyderabad,710000,26000,Petrol,Manual,First,MUV
+Volkswagen,T-Roc,2022,Kolkata,2370000,14000,Petrol,Automatic,First,SUV
+Maruti Suzuki,S-Presso,2020,Mumbai,430000,30000,Petrol,Manual,Second,Hatchback
+Hyundai,Aura,2020,Delhi,690000,34000,Petrol,Automatic,First,Sedan
+Toyota,Glanza,2022,Banglore,820000,13000,Petrol,Automatic,First,Hatchback
+Kia,Carnival,2020,Pune,2570000,42000,Diesel,Automatic,First,SUV
+Maruti Suzuki,Ignis,2022,Ahmedabad,680000,16000,Petrol,Manual,First,Hatchback
+Hyundai,Elantra,2022,Chennai,1930000,19000,Petrol,Automatic,First,Sedan
+Ford,Endeavour,2022,Hyderabad,3870000,14000,Diesel,Automatic,First,SUV
+Mahindra,Bolero,2022,Kolkata,980000,24000,Diesel,Manual,First,SUV
+Tata,Safari,2021,Mumbai,2030000,26000,Diesel,Automatic,First,SUV
+Honda,Civic,2019,Delhi,1580000,54000,Petrol,Automatic,Second,Sedan
+Volkswagen,Taigun,2022,Banglore,1530000,12000,Petrol,Automatic,First,SUV
+Maruti Suzuki,Vitara Brezza,2022,Pune,1030000,19000,Diesel,Manual,First,SUV
+Hyundai,Tucson,2020,Ahmedabad,2130000,44000,Diesel,Automatic,First,SUV
+Kia,Seltos,2022,Chennai,1580000,13000,Diesel,Automatic,First,SUV
+Renault,Kiger,2011,Hyderabad,880000,24000,Petrol,Automatic,First,SUV
+Toyota,Camry,2011,Kolkata,3970000,22000,Petrol,Automatic,First,Sedan

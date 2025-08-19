@@ -1,0 +1,50 @@
+.why-choose-us {
+  max-width: 1200px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-item p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* src/pages/Home.css */
+
+/* Replace your old .home-car-grid style with this */
+.home-car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* We'll keep it at 3 for the homepage */
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* You can also add the responsive media query here */
+@media (max-width: 768px) {
+  .home-car-grid {
+    grid-template-columns: 1fr;
+  }
+}

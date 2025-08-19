@@ -1,0 +1,194 @@
+.buy-car-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Main Search Banner */
+.search-banner {
+  background: url('https://images.unsplash.com/photo-1553440569-bcc63803a83d?w=1200') no-repeat center center/cover;
+  border-radius: 12px;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  height: 450px;
+}
+.search-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.search-box {
+  background-color: white;
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 8px;
+  gap: 0.5rem;
+}
+.city-select, .search-input-main {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.search-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* General Page Section */
+.page-section {
+  margin-bottom: 3rem;
+}
+.page-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* City and Brand Grids */
+.city-grid, .brand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  text-align: center;
+}
+.city-item, .brand-item {
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.city-item:hover, .brand-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Choice Tabs */
+.choice-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.tab-button.active {
+  background-color: #e0f7ff;
+  border-color: #007bff;
+  color: #007bff;
+}
+
+/* Car Grid */
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+
+/* Update the .city-item rule */
+.city-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; /* Adds space between icon and text */
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+/* Add this new rule for the icon itself */
+.city-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Add these styles to the end of BuyCar.css */
+
+.brand-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.slider-btn {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.slider-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Add these styles to the end of BuyCar.css */
+
+/* Styling for the Brand logos */
+.brand-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.brand-grid{
+    display: flex;
+}
+
+/* Generic grid for Transmission and Fuel Type */
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  text-align: center;
+}
+
+.choice-item {
+  padding: 1.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  font-weight: 500;
+}
+.choice-item:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 992px) {
+  .buy-car-container {
+    flex-direction: column;
+  }
+
+  .filter-sidebar {
+    width: 100%;
+  }
+}

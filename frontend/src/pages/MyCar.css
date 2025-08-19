@@ -1,0 +1,78 @@
+.my-cars-container {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.my-cars-container h1 {
+  margin-bottom: 2rem;
+}
+
+.my-cars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.my-car-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.my-car-item {
+  display: flex;
+  align-items: center; /* This vertically centers the content */
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: box-shadow 0.2s;
+  position: relative; /* Needed for positioning the button */
+}
+
+.my-car-item:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.my-car-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 1.5rem;
+}
+
+.my-car-info {
+  flex-grow: 1; /* Makes the info section take up the available space */
+}
+
+.my-car-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-car-info .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.my-car-info .details {
+  color: #555;
+}
+
+.view-details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 1rem; /* Adds space between info and button */
+  white-space: nowrap; /* Prevents text wrapping */
+  transition: background-color 0.2s;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3;
+}

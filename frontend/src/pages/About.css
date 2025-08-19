@@ -1,0 +1,113 @@
+.about-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+/* --- Hero Section --- */
+.about-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+.about-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.about-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+}
+
+/* --- General Section --- */
+.about-section {
+  padding: 3rem 1rem;
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* --- Vision Section --- */
+.vision-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.vision-image {
+  flex: 1;
+}
+
+.vision-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.vision-text {
+  flex: 1.2;
+}
+
+.vision-text h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.vision-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* --- Team Section --- */
+.team-section {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.team-member-card {
+  text-align: center;
+}
+
+.team-member-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 4px solid white;
+}
+
+.team-member-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.team-member-card p {
+  color: #555;
+}
+
+/* --- Responsive for Mobile --- */
+@media (max-width: 768px) {
+  .vision-section {
+    flex-direction: column;
+  }
+  .vision-text h2 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,102 @@
+.hero-search-container {
+  position: relative; /* Required for the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 2rem;
+  border-radius: 12px;
+  overflow: hidden; /* Keeps the overlay and image within the rounded corners */
+  color: white;
+}
+
+/* This is the background image */
+.hero-search-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../assests/images/hero-car.jpg') no-repeat center center/cover;
+  z-index: -2; /* Puts it behind everything */
+}
+
+/* This is the dark overlay */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: -1; /* Puts it between the image and the content */
+}
+
+/* This is the text and search bar */
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-wrapper input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search-wrapper button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .hero-search-content h1 {
+    font-size: 2.2rem;
+  }
+  .search-wrapper {
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  .search-wrapper input, .search-wrapper button {
+    border-radius: 6px; /* Reset the corner radius */
+  }
+  .search-wrapper button {
+    margin-top: 0.5rem;
+  }
+}
