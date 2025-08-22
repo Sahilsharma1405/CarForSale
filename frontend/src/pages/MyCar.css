@@ -76,3 +76,24 @@
 .view-details-btn:hover {
   background-color: #0056b3;
 }
+
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.status-pending {
+  background-color: #ffc107; /* Yellow/Orange */
+}
+
+.status-approved {
+  background-color: #28a745; /* Green */
+}
+
+.status-rejected {
+  background-color: #dc3545; /* Red */
+}

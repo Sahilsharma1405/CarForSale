@@ -155,3 +155,87 @@
     font-size: 1.8rem;
   }
 }
+
+.admin-full-width-btn {
+    width: 100%;
+}
+.approve-btn {
+  width: 100%;
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.approve-btn:hover {
+  background-color: #218838; /* Darker green */
+}
+
+
+.status-notice {
+  margin-top: 1rem;      
+  padding: 0.75rem 1rem; 
+  background-color: #fffbeb; 
+  border-left: 4px solid #fbbF24; 
+  border-radius: 4px;
+  color: #92400e;
+  font-size: 0.9rem;   
+  text-align: center; 
+}
+
+
+.status-notice-rejected {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background-color: #fbebeb; /* Light red */
+  border-left: 4px solid #dc3545; /* Red */
+  border-radius: 4px;
+  color: #842029;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+
+/* This is the container for the admin buttons */
+.admin-full-width-btn {
+  width: 100%;             /* Ensures the container takes up the full available width */
+  display: flex;           /* Arranges the buttons side-by-side */
+  gap: 1rem;               /* Creates a space between the two buttons */
+}
+
+/* Base styles shared by both approve and reject buttons */
+.approve-btn, .reject-btn {
+  flex: 1;                 /* Makes each button take up half of the container's space */
+  border: none;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth hover effect */
+  color: white;
+}
+
+/* Specific styles for the "Approve" button */
+.approve-btn {
+  background-color: #28a745; /* Green */
+}
+
+.approve-btn:hover {
+  background-color: #218838; /* Darker green */
+}
+
+/* Specific styles for the "Reject" button */
+.reject-btn {
+  background-color: #dc3545; /* Red */
+}
+
+.reject-btn:hover {
+  background-color: #c82333; /* Darker red */
+}

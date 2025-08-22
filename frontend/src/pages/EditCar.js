@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axiosInstance from '../api/axios';
+import {axiosInstance} from '../api/axios';
 import { useNavigate, useParams } from 'react-router-dom';
 import './SellCar.css'; // We can reuse the styles from the Sell Car page
 

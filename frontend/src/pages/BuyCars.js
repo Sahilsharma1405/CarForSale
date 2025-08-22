@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axiosInstance from "../api/axios";
+import {axiosInstance} from "../api/axios";
 import CarCard from "../components/CarCard";
-import AdvancedFilter from "../components/AdvancedFilter";
+// import AdvancedFilter from "../components/AdvancedFilter";/
 import "./BuyCar.css";
 import banglore from "../assests/images/bangalore.png";
 import ahmedabad from "../assests/images/landmark.png";
@@ -51,26 +51,20 @@ const fuelTypes = ["Petrol", "Diesel", "Electric", "CNG"];
 const BRANDS_PER_PAGE = 8;
 
 const BuyCars = () => {
-  // --- STATE MANAGEMENT ---
+ 
   const [cars, setCars] = useState([]);
   const [loading, setLoading] = useState(true);
-  // const [filters, setFilters] = useState({
-  //   city: "",
-  //   brand: "",
-  //   model_search: "",
-  // });
   const [activeFilter, setActiveFilter] = useState({ key: '', value: '' });
   const [activeTab, setActiveTab] = useState("Brands");
   const [brandPage, setBrandPage] = useState(0);
 
-  // --- DATA FETCHING ---
+
   useEffect(() => {
     const fetchCars = async () => {
       setLoading(true);
       try {
         let url = 'http://127.0.0.1:8000/api/cars/';
         
-        // If there's an active filter, add it to the API request URL
         if (activeFilter.key && activeFilter.value) {
           const paramKey = activeFilter.key === 'model_search' ? 'model' : activeFilter.key;
           url += `?${paramKey}=${activeFilter.value}`;
@@ -88,7 +82,7 @@ const BuyCars = () => {
     fetchCars();
   }, [activeFilter]);
 
-  // --- EVENT HANDLERS ---
+
   const handleFilterChange = (key, value) => {
     setActiveFilter({ key, value });
   };

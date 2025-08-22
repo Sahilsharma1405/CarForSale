@@ -11,7 +11,6 @@ print("--- Starting Final Model Training ---")
 
 # 1. Load the new dataset
 try:
-    # Make sure your new Kaggle file is named 'usedcar_dataset_final.csv'
     df = pd.read_csv('used_cars_dataset_v2.csv')
     print("Successfully loaded the dataset.")
 except FileNotFoundError:
@@ -19,7 +18,6 @@ except FileNotFoundError:
     exit()
 
 # 2. Clean and Prepare the Data
-# Standardize column names for easier use
 df.rename(columns={
     'Brand': 'brand', 'Year': 'year', 'kmDriven': 'km_driven',
     'Transmission': 'transmission', 'Owner': 'owner', 'FuelType': 'fuel_type',

@@ -104,3 +104,43 @@
 .form-grid .form-group:last-child:nth-child(odd) {
     grid-column: 1 / -1;
 }
+
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  padding-right: 2.5rem; 
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+  /* --- Style Changes --- */
+  padding: 0.5rem; /* Increase clickable area */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a0a0a0; /* Lighter grey color */
+  transition: color 0.2s ease-in-out; /* Smooth color transition */
+}
+
+/* Add a hover effect */
+.password-toggle-btn:hover {
+  color: #333; /* Darken the icon when hovered */
+}
+
+/* The icon itself */
+.password-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+}

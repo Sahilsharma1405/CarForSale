@@ -23,6 +23,13 @@ class Car(models.Model):
         choices=[('Petrol', 'Petrol'), ('Diesel', 'Diesel'), ('CNG', 'CNG'), ('Electric', 'Electric')],
         default='Petrol'
     )
+    STATUS_CHOICES = [
+        ('Pending', 'Pending'),
+        ('Approved', 'Approved'),
+        ('Rejected', 'Rejected'),
+    ]
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='Pending')
+    
     body_type=models.CharField(max_length=50)
     created_at=models.DateTimeField(auto_now_add=True)
 

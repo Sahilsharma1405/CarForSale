@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
-import axiosInstance from "../api/axios";
+import { axiosInstance } from "../api/axios";
 import "./CarDetail.css";
 import {
   BsFillCalendarFill,
@@ -14,26 +14,22 @@ const CarDetail = () => {
   const [car, setCar] = useState(null);
   const [loading, setLoading] = useState(true);
   const [currentUser, setCurrentUser] = useState(null);
-  // State to track which image is currently displayed
+
   const [activeImage, setActiveImage] = useState(0);
   const [sellerDetails, setSellerDetails] = useState(null);
-
+  const [isStaff, setIsStaff] = useState(false);
   const navigate = useNavigate();
   const handleGetSellerDetails = async () => {
-    // 1. Check for the access token first
     const token = localStorage.getItem("accessToken");
     if (!token) {
       alert("You must be logged in to view seller details.");
-      navigate("/login"); // Redirect to login page
-      return; // Stop the function here
+      navigate("/login");
+      return;
     }
-
-    // 2. If token exists, proceed with the API call
     try {
       const response = await axiosInstance.get(
         `http://127.0.0.1:8000/api/seller/${car.seller}/`,
         {
-          // We also need to send the token to the backend
           headers: { Authorization: `Bearer ${token}` },
         }
       );
@@ -44,18 +40,7 @@ const CarDetail = () => {
     }
   };
 
-  // For "Enquire Now", the simplest method is a 'mailto' link
-  const handleEnquire = () => {
-    // This function will now work as intended
-    if (sellerDetails && sellerDetails.email) {
-      window.location.href = `mailto:${sellerDetails.email}?subject=Enquiry about your ${car.year} ${car.model}`;
-    } else {
-      alert("Please get seller details first to reveal their email.");
-    }
-  };
-
   const handleDelete = async () => {
-    // Ask for confirmation before deleting
     if (window.confirm("Are you sure you want to delete this listing?")) {
       const token = localStorage.getItem("accessToken");
       try {
@@ -63,7 +48,7 @@ const CarDetail = () => {
           headers: { Authorization: `Bearer ${token}` },
         });
         alert("Car deleted successfully!");
-        navigate("/my-cars"); // Redirect to my-cars page
+        navigate("/my-cars");
       } catch (error) {
         console.error("Failed to delete car:", error);
         alert("Failed to delete car.");
@@ -72,12 +57,9 @@ const CarDetail = () => {
   };
 
   useEffect(() => {
-    // Function to fetch both car details and current user info
     const fetchData = async () => {
       setLoading(true);
       const token = localStorage.getItem("accessToken");
-
-      // Fetch current user if logged in
       if (token) {
         try {
           const userResponse = await axiosInstance.get(
@@ -86,13 +68,12 @@ const CarDetail = () => {
               headers: { Authorization: `Bearer ${token}` },
             }
           );
+          setIsStaff(userResponse.data.is_staff);
           setCurrentUser(userResponse.data);
         } catch (error) {
           console.error("Failed to fetch current user:", error);
         }
       }
-
-      // Fetch car details
       try {
         const carResponse = await axiosInstance.get(
           `http://127.0.0.1:8000/api/cars/${carId}/`
@@ -108,6 +89,35 @@ const CarDetail = () => {
     fetchData();
   }, [carId]);
 
+  const handleApprove = async () => {
+    if (window.confirm("Are you sure you want to approve this car?")) {
+      try {
+        await axiosInstance.post(`/admin/approve-car/${carId}/`);
+        alert("Car approved successfully!");
+        navigate("/admin/dashboard");
+      } catch (error) {
+        console.error("Failed to approve car:", error);
+        alert("Failed to approve car.");
+      }
+    }
+  };
+
+  const handleReject = async () => {
+    if (
+      window.confirm(
+        "Are you sure you want to reject this car? This will hide it from the user."
+      )
+    ) {
+      try {
+        await axiosInstance.post(`/admin/reject-car/${carId}/`);
+        alert("Car rejected successfully!");
+        navigate("/admin/dashboard");
+      } catch (error) {
+        console.error("Failed to reject car:", error);
+        alert("Failed to reject car.");
+      }
+    }
+  };
   if (loading) return <div className="loading">Loading...</div>;
   if (!car) return <div className="error">Car not found.</div>;
   const isOwner = currentUser && currentUser.username === car.seller;
@@ -117,10 +127,62 @@ const CarDetail = () => {
       ? car.images
       : [{ image_url: "https://via.placeholder.com/800x500?text=No+Image" }];
 
+  const renderActionButtons = () => {
+    console.log("Checking conditions:", {
+      isAdmin: isStaff,
+      status: car.status,
+    });
+    if (isStaff && car.status.toLowerCase() === "pending") {
+      return (
+        <div className="admin-full-width-btn">
+          <button onClick={handleApprove} className="approve-btn">
+            Approve This Car
+          </button>
+          <button onClick={handleReject} className="reject-btn">
+            Reject This Car
+          </button>
+        </div>
+      );
+    }
+    if (isOwner) {
+      const isPending = car.status.toLowerCase() === "pending";
+      const isRejected = car.status.toLowerCase() === "rejected";
+      return (
+        <>
+          <Link
+            to={`/car/${carId}/edit`}
+            className={`btn-primary ${
+              isPending || isRejected ? "disabled-link" : ""
+            }`}
+            onClick={(e) => (isPending || isRejected) && e.preventDefault()}
+          >
+            Update
+          </Link>
+          <button
+            onClick={handleDelete}
+            className={`btn-secondary ${isPending?"disabled-link":""}`}
+            disabled={false}
+          >
+            Delete
+          </button>
+        </>
+      );
+    }
+    return (
+      <>
+        <a href={`mailto:${sellerDetails?.email}`} className="btn-primary">
+          Enquire Now
+        </a>
+        <button onClick={handleGetSellerDetails} className="btn-secondary">
+          Get Seller Details
+        </button>
+      </>
+    );
+  };
+
   return (
     <div className="car-detail-page">
       <div className="detail-layout">
-        {/* --- Image Gallery (Left Side) --- */}
         <div className="image-gallery">
           <div className="main-image-container">
             <img
@@ -144,7 +206,6 @@ const CarDetail = () => {
           </div>
         </div>
 
-        {/* --- Car Info (Right Side) --- */}
         <div className="car-info">
           <h1 className="car-title">
             {car.year} {car.model}
@@ -154,7 +215,6 @@ const CarDetail = () => {
           <div className="car-specs">
             <h2>Specifications</h2>
             <div className="spec-grid">
-              {/* 2. Add the imported icons next to the text */}
               <div className="spec-item">
                 <BsFillCalendarFill className="spec-icon" />
                 <div>
@@ -165,7 +225,7 @@ const CarDetail = () => {
               <div className="spec-item">
                 <BsSpeedometer2 className="spec-icon" />
                 <div>
-                  <strong>Mileage</strong>
+                  <strong>Km Driven</strong>
                   <span>{car.km_driven.toLocaleString("en-IN")} km</span>
                 </div>
               </div>
@@ -186,32 +246,15 @@ const CarDetail = () => {
             </div>
           </div>
 
-          <div className="action-buttons">
-            {isOwner ? (
-              <>
-                {/* The Update button now links to an edit page */}
-                <Link to={`/car/${carId}/edit`} className="btn-primary">
-                  Update
-                </Link>
-                {/* The Delete button now calls handleDelete */}
-                <button onClick={handleDelete} className="btn-secondary">
-                  Delete
-                </button>
-              </>
-            ) : (
-              <>
-                <a href="#!" onClick={handleEnquire} className="btn-primary">
-                  Enquire Now
-                </a>
-                <button
-                  onClick={handleGetSellerDetails}
-                  className="btn-primary"
-                >
-                  Get Seller Details
-                </button>
-              </>
-            )}
-          </div>
+          <div className="action-buttons">{renderActionButtons()}</div>
+          {isOwner && car.status.toLowerCase() === "pending" && (
+            <p className="status-notice">Under review. Actions disabled.</p>
+          )}
+          {isOwner && car.status.toLowerCase() === "rejected" && (
+            <p className="status-notice-rejected">
+              This listing was rejected. Please delete it or contact support.
+            </p>
+          )}
           {sellerDetails && (
             <div className="seller-details-box">
               <h3>Seller Contact</h3>

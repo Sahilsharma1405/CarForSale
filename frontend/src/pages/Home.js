@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axiosInstance from '../api/axios';
+import {axiosInstance} from '../api/axios';
 import { Link } from 'react-router-dom';
 import HeroSearch from '../components/HeroSearch';
 import './Home.css';
@@ -12,19 +12,7 @@ const Home = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
 
-  useEffect(() => {
-    const fetchInitialCars = async () => {
-      try {
-        const response = await axiosInstance.get('http://127.0.0.1:8000/api/cars/');
-        setFeaturedCars(response.data.slice(0, 3));
-      } catch (error) {
-        console.error("Failed to fetch featured cars:", error);
-      }
-    };
-    fetchInitialCars();
-  }, []);
   
-  // 2. New function to handle the search from the Hero component
   const handleSearch = async (searchTerm) => {
     if (!searchTerm) return;
     
@@ -40,13 +28,11 @@ const Home = () => {
     }
   };
 
-  // 2. useEffect to fetch the car data when the page loads
   useEffect(() => {
     const fetchFeaturedCars = async () => {
       try {
-        // Change the URL to the new, specific endpoint
         const response = await axiosInstance.get('http://127.0.0.1:8000/api/featured-cars/');
-        setFeaturedCars(response.data); // You can rename the state if you like
+        setFeaturedCars(response.data); 
       } catch (error) {
         console.error("Failed to fetch featured cars:", error);
       }
@@ -54,7 +40,6 @@ const Home = () => {
     fetchFeaturedCars();
   }, [])
 
-  // 3. Get just the first 3 cars to display in the featured section
   const featuredCars = cars.slice(0, 3);
   return (
     <div className="home-container">
@@ -73,7 +58,7 @@ const Home = () => {
           )}
         </section>
       )}
-      <Counter items={{carsSold:1500,happyCustomers:1000,citiesServed:10}}/>
+      <Counter items={{carsSold:150,happyCustomers:150,citiesServed:10}}/>
 
       <section className="page-section">
         <h2>Featured Cars</h2>

@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Footer.css'
+import './Footer.css';
+// --- START: Import icons ---
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPhone, FaEnvelope } from 'react-icons/fa';
+// --- END: Import icons ---
+
 const Footer = () => {
   return (
     <footer className="footer-container">
@@ -10,7 +14,6 @@ const Footer = () => {
           <p>
             India's leading platform for buying and selling certified pre-owned cars with trust and transparency.
           </p>
-          {/* Add social icons here later */}
         </div>
         <div className="footer-section links">
           <h2>Quick Links</h2>
@@ -23,9 +26,16 @@ const Footer = () => {
         </div>
         <div className="footer-section contact-form">
           <h2>Contact Us</h2>
-          {/* <input type="email" name="email" className="text-input contact-input" placeholder="Your email address..." />
-          <textarea name="message" className="text-input contact-input" placeholder="Your message..."></textarea>
-          <button type="submit" className="btn btn-primary">Send</button> */}
+          <div className="contact">
+            <span><FaPhone /> &nbsp; +91 63522 36484</span>
+            <span><FaEnvelope /> &nbsp; <a href="mailto:semprojectdemo4@gmail.com">semprojectdemo4@gmail.com</a></span>
+          </div>
+          <div className="socials">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebook /></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">

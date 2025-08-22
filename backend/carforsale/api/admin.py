@@ -13,7 +13,4 @@ class CarAdmin(admin.ModelAdmin):
     list_filter = ('brand', 'city', 'fuel_type', 'transmission')
     search_fields = ('model', 'brand', 'description')
     inlines = [CarImageInline]
-
-# With the decorator, you no longer need the following lines at all:
-# admin.site.unregister(Car)
-# admin.site.register(Car, CarAdmin)
+admin.site.register(CarImage)

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './Form.css';
 import axios from 'axios';
-import { useNavigate, Link } from 'react-router-dom'; // 1. Import Link
+import { useNavigate, Link } from 'react-router-dom';
+import { BsEye, BsEyeSlash } from 'react-icons/bs';
 
 const Login = (props) => {
-  // ... your existing useState and handleSubmit logic remains the same ...
-
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false); 
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
@@ -25,37 +25,33 @@ const Login = (props) => {
     }
   };
 
-
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="form">
         <h2>Login</h2>
         
-        {/* Username and Password fields remain the same */}
         <div className="form-group">
           <label htmlFor="username">Username</label>
-          <input
-            type="text"
-            id="username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
+          <input type="text" id="username"  value={username} onChange={(e) => setUsername(e.target.value)} required />
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <div className="password-wrapper">
+            <input
+              type={showPassword ? "text" : "password"} 
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            <button type="button" onClick={() => setShowPassword(!showPassword)} className="password-toggle-btn">
+              {showPassword ? <BsEyeSlash /> : <BsEye />}
+            </button>
+          </div>
         </div>
 
         <button type="submit" className="form-button">Login</button>
 
-        {/* 2. Add this new div for the signup link */}
         <div className="form-switch-link">
           Don't have an account? <Link to="/register">Sign up now</Link>
         </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Counter.css';
 
-// A simpler component for a single animated number
+
 const StatItem = ({ endValue, label, duration = 2000 }) => {
   // State to hold the current number being displayed
   const [count, setCount] = useState(0);

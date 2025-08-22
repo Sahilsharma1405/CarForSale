@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axiosInstance from '../api/axios';
+import {axiosInstance} from '../api/axios';
 import './Form.css';
 
 const PredictPrice = () => {
@@ -9,9 +9,7 @@ const PredictPrice = () => {
     year: '2017',
     km_driven: '70000',
     transmission: 'Manual',
-    // FIX 1: Default 'owner' value now matches the option value
     owner: 'First Owner', 
-    // This was the main error from your last attempt, it is now correct
     fuel_type: 'Petrol'
   });
   const [predictedPrice, setPredictedPrice] = useState(null);
@@ -66,7 +64,6 @@ const PredictPrice = () => {
           </div>
           <div className="form-group">
             <label>Fuel Type</label>
-            {/* FIX 2: The 'name' attribute must be 'fuel_type' */}
             <select name="fuel_type" value={carDetails.fuel_type} onChange={handleChange}>
               <option value="Petrol">Petrol</option>
               <option value="Diesel">Diesel</option>
@@ -76,7 +73,6 @@ const PredictPrice = () => {
           <div className="form-group">
             <label>Owner</label>
             <select name="owner" value={carDetails.owner} onChange={handleChange}>
-              {/* FIX 3: The 'value' must be the full text to match the model's training data */}
               <option value="First Owner">First Owner</option>
               <option value="Second Owner">Second Owner</option>
               <option value="Third Owner">Third Owner</option>

@@ -13,4 +13,8 @@ urlpatterns = [
     path('images/<int:pk>/', views.CarImageDeleteView.as_view(), name='car-image-delete'),
     path('predict-price/', views.PricePredictionView.as_view(), name='predict-price'),
     path('featured-cars/', views.FeaturedCarsView.as_view(), name='featured-cars'),
+    path('admin/pending-cars/', views.PendingCarsView.as_view(), name='pending-cars'),
+    path('admin/approve-car/<int:pk>/', views.approve_car, name='approve-car'),
+    path('admin/reject-car/<int:pk>/', views.reject_car, name='reject-car'),
+    path('admin/register-staff/', views.StaffRegisterView.as_view(), name='register-staff'),
 ]

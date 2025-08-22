@@ -1,18 +1,45 @@
 import React, { useState } from "react";
 import "./Form.css";
 import axios from "axios";
-import { useNavigate, Link } from "react-router-dom"; // 1. Import Link
+import { useNavigate, Link } from "react-router-dom";
+import { BsEye, BsEyeSlash } from "react-icons/bs";
 
 const Register = () => {
-  // ... your existing useState and handleSubmit logic remains the same ...
-
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (password !== confirmPassword) {
+      alert("Passwords do not match!");
+      return;
+    }
+    if (password.length < 8) {
+      alert("Minimum Length of password is 8");
+      return;
+    }
+    if (!/[A-Z]/.test(password)) {
+      alert("Password must contain at least one uppercase letter.");
+      return; // Stop the submission
+    }
+
+    // 4. Check for a lowercase letter
+    if (!/[a-z]/.test(password)) {
+      alert("Password must contain at least one lowercase letter.");
+      return; // Stop the submission
+    }
+
+    // 5. Check for a number
+    if (!/[0-9]/.test(password)) {
+      alert("Password must contain at least one number.");
+      return; // Stop the submission
+    }
     try {
       await axios.post("http://127.0.0.1:8000/api/register/", {
         username,
@@ -32,7 +59,6 @@ const Register = () => {
       <form onSubmit={handleSubmit} className="form">
         <h2>Register</h2>
 
-        {/* Your form fields remain the same */}
         <div className="form-group">
           <label htmlFor="username">Username</label>
           <input
@@ -55,20 +81,47 @@ const Register = () => {
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
+          <div className="password-wrapper">
+            <input
+              type={showPassword ? "text" : "password"}
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="password-toggle-btn"
+            >
+              {showPassword ? <BsEyeSlash /> : <BsEye />}
+            </button>
+          </div>
+        </div>
+        <div className="form-group">
+          <label htmlFor="confirm-password">Confirm Password</label>
+          <div className="password-wrapper">
+            <input
+              type={showConfirmPassword ? "text" : "password"}
+              id="confirm-password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              required
+            />
+            <button
+              type="button"
+              onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+              className="password-toggle-btn"
+            >
+              {showConfirmPassword ? <BsEyeSlash /> : <BsEye />}
+            </button>
+          </div>
         </div>
 
         <button type="submit" className="form-button">
           Register
         </button>
 
-        {/* 2. Add this new div for the login link */}
         <div className="form-switch-link">
           Already have an account? <Link to="/login">Log in</Link>
         </div>

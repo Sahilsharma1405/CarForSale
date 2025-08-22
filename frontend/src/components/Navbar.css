@@ -165,3 +165,12 @@
     justify-content: center;
   }
 }
+
+
+.admin-btn {
+  background-color: #28a745; /* Green for admin */
+  color: white;
+}
+.admin-btn:hover {
+  background-color: #218838;
+}

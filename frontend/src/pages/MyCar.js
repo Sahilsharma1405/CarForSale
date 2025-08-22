@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axiosInstance from "../api/axios";
+import { axiosInstance } from "../api/axios";
 import { Link } from "react-router-dom";
 import "./MyCar.css";
 
@@ -12,16 +12,18 @@ const MyCars = () => {
       const token = localStorage.getItem("accessToken");
       if (!token) {
         setLoading(false);
-        // You might want to redirect to login here
         return;
       }
 
       try {
-        const response = await axiosInstance.get("http://127.0.0.1:8000/api/my-cars/", {
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        });
+        const response = await axiosInstance.get(
+          "http://127.0.0.1:8000/api/my-cars/",
+          {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
         setMyCars(response.data);
       } catch (error) {
         console.error("Failed to fetch user's cars:", error);
@@ -61,6 +63,11 @@ const MyCars = () => {
                 <p className="details">
                   {car.km_driven.toLocaleString("en-IN")} km
                 </p>
+                <span
+                  className={`status-badge status-${car.status.toLowerCase()}`}
+                >
+                  {car.status}
+                </span>
               </div>
               <Link
                 to={`/car/${car.id}`}

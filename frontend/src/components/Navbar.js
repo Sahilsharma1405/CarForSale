@@ -17,6 +17,15 @@ const Navbar = (props) => {
           CarForSale
         </Link>
         <div className="nav-links">
+          {props.isLoggedIn && props.isStaff && (
+            <div className="nav-dropdown">
+              <button className="nav-link admin-btn">Admin</button>
+              <div className="dropdown-content">
+                <Link to="/admin/dashboard">Pending Approvals</Link>
+                <Link to="/admin/register-staff">Register Staff</Link>
+              </div>
+            </div>
+          )}
           {props.isLoggedIn ? (
             // --- Logged-In User Links ---
             <>

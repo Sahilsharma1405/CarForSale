@@ -7,10 +7,10 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     class Meta:
         model=User
-        fields=('username','password','email')
+        fields=('username','password','email','is_staff')
 
     def create(self, validated_data):
-        user=User.objects.create_user(username=validated_data['username'], email=validated_data['email'],password=validated_data['password'])
+        user = User.objects.create_user(**validated_data)
         
         return user
     
@@ -22,8 +22,6 @@ class CarImageSerializer(serializers.ModelSerializer):
 
     def get_image_url(self, obj):
         request = self.context.get('request')
-        # The 'obj.image_url.url' gives the partial path.
-        # 'request.build_absolute_uri' prepends the domain (e.g., http://127.0.0.1:8000)
         if request and obj.image_url:
             return request.build_absolute_uri(obj.image_url.url)
         return None
@@ -35,5 +33,5 @@ class CarSerializer(serializers.ModelSerializer):
     class Meta:
         model=Car
         fields=[
-            'id','seller','brand','model','year','price','km_driven','description','owner_type','city','transmission','fuel_type','body_type','created_at','images'
+            'id','seller','brand','model','year','price','km_driven','description','owner_type','city','transmission','fuel_type','body_type','created_at','images','status'
         ]
